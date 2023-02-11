@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "tailwindcss": "^3.2.6"
+  },
+  "scripts": {
+    "build": "tailwindcss build src/input.css -o dist/output.css --watch"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.0"
+  }
+}
